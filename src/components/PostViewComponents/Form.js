@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import '../../stylecss/form.css';
 import Header from './Header';
 import axios from 'axios';
@@ -9,7 +9,6 @@ const Form = () => {
     const [author, setAuthor] = useState('');
     const [location, setLocation] = useState('');
     const [description, setDescription] = useState('');
-    const [allData,setAllData] = useState('');
     const navigate = useNavigate()
     const togglepost = async () => {
         const date = new Date();
