@@ -1,1 +1,1 @@
-export const apiBaseUrl = 'http://localhost:3003'
+export const apiBaseUrl = 'https://instaclonebackendserver.onrender.com'

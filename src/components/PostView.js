@@ -3,7 +3,7 @@ import Header from './PostViewComponents/Header'
 import Posts from './PostViewComponents/Posts'
 import axios from 'axios';
 import projectListData from './PostViewComponents/StaticData'
-import {apiBaseUrl} from './BaseApiUrl'
+import {apiBaseUrl} from './PostViewComponents/BaseApiUrl'
 const PostView = () => {
   const [allData,setAllData]=useState(projectListData())
   useEffect(()=>{
